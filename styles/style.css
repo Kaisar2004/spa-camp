@@ -5,7 +5,7 @@
     src: url("../fonts/Raleway-Regular.ttf");
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -17,7 +17,7 @@
 
 header {
     background-color: #EC8C42;
-    padding: 20px 0 ;
+    padding: 15px 0;
 }
 
 header .container {
@@ -47,8 +47,61 @@ header .container {
 
 .location-text {
     color: #FFF;
+    text-decoration: none;
 }
 
 .phone-number {
     color: #fff;
+    text-decoration: none;
+}
+
+.first-block {
+    background: url("../images/littleGirl.png");
+    background-size: cover;
+}
+
+.first-block-text {
+    padding: 180px 0 150px 0;
+    width: 658px;
+    text-align: center;
+}
+
+.first-block-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 110px;
+}
+
+.first-block-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.first-block-information {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 20px;
+}
+
+.first-block-action {
+    padding-top: 30px;
+}
+
+.first-block-btn {
+    background: #FFAF02;
+    border-radius: 25px;
+    border: none;
+    padding: 18px 80px;
+    cursor: pointer;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
 }

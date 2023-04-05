@@ -5,6 +5,8 @@
     src: url("../fonts/Raleway-Regular.ttf");
 }
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -104,4 +106,41 @@ header .container {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20px;
+}
+
+.second-block {
+    background: #D3E4F4;
+}
+
+.advantages-title {
+    padding: 100px 0 30px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #F2AA40;
+}
+
+.advantages-box {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.advantages-block {
+    width: 200px;
+}
+
+.advantages-price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #82BCED;
+    padding-bottom: 5px;
+}
+
+.advantages-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #676767;
 }

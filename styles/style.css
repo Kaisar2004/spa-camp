@@ -434,3 +434,33 @@ h4 {
     font-size: 16px;
     color: #676767;
 }
+
+.english-course {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.english-course-title {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #676767;
+}
+
+.english-course-info {
+    width: 700px;
+}
+
+.english-course-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #676767;
+    margin-bottom: 10px;
+}
+
+.english-course-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #676767;
+}

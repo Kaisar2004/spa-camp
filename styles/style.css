@@ -5,6 +5,10 @@
     src: url("../fonts/Raleway-Regular.ttf");
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 * {
     margin: 0;
@@ -38,7 +42,7 @@ header .container {
 
 .menu a {
     text-decoration: none;
-    padding: 0 40px;
+    padding: 0 25px;
     color: #FFF;
     cursor: pointer;
 }
@@ -72,7 +76,6 @@ header .container {
 }
 
 .first-block-title {
-    font-family: 'Montserrat', sans-serif;
     color: #fff;
     font-weight: 700;
     font-size: 90px;
@@ -81,7 +84,6 @@ header .container {
 }
 
 .first-block-description {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 30px;
     color: #FFFFFF;
@@ -89,7 +91,6 @@ header .container {
 
 .first-block-information {
     color: #FFF;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -107,7 +108,6 @@ header .container {
     padding: 18px 80px;
     cursor: pointer;
     color: #FFF;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20px;
 }
@@ -119,7 +119,6 @@ header .container {
 
 .advantages-title {
     padding: 100px 0 30px 0;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 60px;
     color: #F2AA40;
@@ -136,7 +135,6 @@ header .container {
 }
 
 .advantages-price {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 30px;
     color: #82BCED;
@@ -144,7 +142,6 @@ header .container {
 }
 
 .advantages-description {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #676767;
@@ -158,7 +155,6 @@ header .container {
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 60px;
     color: #F2AA40;
@@ -171,7 +167,6 @@ h1 {
 
 h4 {
     padding-top: 30px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 30px;
     color: #82BCED;
@@ -179,7 +174,6 @@ h4 {
 
 .our-intent-text {
     padding-top: 25px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -197,7 +191,6 @@ h4 {
 
 .booking-title {
     padding-top: 30px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 30px;
     color: #6DB2ED;
@@ -206,7 +199,6 @@ h4 {
 .booking-text {
     width: 740px;
     padding-top: 10px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #676767;
@@ -285,11 +277,10 @@ h4 {
     border-radius: 20px;
     padding: 20px 25px;
     background: #B5D5F0;
-    width: 250px ;
+    width: 250px;
 }
 
 .booking-box-names {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 16px;
     color: #2F2F2F;
@@ -297,7 +288,6 @@ h4 {
 
 .booking-box-right {
     margin-left: 50px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 16px;
     color: #FCA321;
@@ -305,7 +295,6 @@ h4 {
 
 .booking-box-time {
     padding-top: 10px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
     color: #000000;
@@ -317,14 +306,12 @@ h4 {
 
 .booking-box-place {
     padding: 5px 0;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
     color: #000000;
 }
 
 .booking-box-price {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
     color: #000000;
@@ -360,7 +347,6 @@ h4 {
 }
 
 .territories-title {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 30px;
     color: #6DB2ED;
@@ -370,7 +356,6 @@ h4 {
 .territories-info {
     margin-bottom: 10px;
     width: 308px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #676767;
@@ -382,10 +367,10 @@ h4 {
 
 .our-specials {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .our-specials-title {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 30px;
     color: #6DB2ED;
@@ -394,7 +379,6 @@ h4 {
 
 .our-specials-info {
     margin-bottom: 15px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 16px;
     color: #676767;
@@ -403,14 +387,12 @@ h4 {
 .our-specials-text {
     margin-bottom: 8px;
     width: 700px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #676767;
 }
 
 .our-specials-spa-info {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #676767;
@@ -426,7 +408,6 @@ h4 {
 }
 
 .our-specials-spa-body {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #676767;
@@ -434,4 +415,22 @@ h4 {
 
 .specials-img {
     margin-left: 15px;
+}
+
+.special-guest-box {
+    display: flex;
+    grid-column-gap: 45px;
+}
+
+.guest-title {
+    display: flex;
+    justify-content: right;
+}
+
+.guest-text {
+    padding-top: 20px;
+    width: 700px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #676767;
 }

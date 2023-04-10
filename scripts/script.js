@@ -32,6 +32,17 @@ $(document).ready(function (){
         swipe: true,
     });
 
+    $('.reviews').slick({
+        // lazyLoad: 'ondemand',
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: true,
+        draggable: true,
+        swipe: true,
+    });
+
+
+
 
 })
 

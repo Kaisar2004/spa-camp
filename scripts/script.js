@@ -26,7 +26,7 @@ $(document).ready(function () {
         swipe: true,
         responsive: [
             {
-                breakpoint: 425,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -34,9 +34,25 @@ $(document).ready(function () {
                 }
             },
             {
+                breakpoint: 425,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+            },
+            {
                 breakpoint: 375,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+            },
+            {
+                breakpoint: 321,
+                settings: {
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true
                 }
@@ -59,7 +75,7 @@ $(document).ready(function () {
         swipe: true,
         responsive: [
             {
-                breakpoint: 425,
+                breakpoint: 1023,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -67,9 +83,33 @@ $(document).ready(function () {
                 }
             },
             {
-                breakpoint: 375,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+            },
+            {
+                breakpoint: 425,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+            },
+            {
+                breakpoint: 375,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+            },
+            {
+                breakpoint: 321,
+                settings: {
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true
                 }

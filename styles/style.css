@@ -63,6 +63,10 @@ header .container {
     cursor: pointer;
 }
 
+.location-number {
+    display: flex;
+}
+
 .phone-number {
     color: #fff;
     text-decoration: none;
@@ -238,7 +242,7 @@ h4 {
 
 .booking-types .slick-arrow.slick-prev {
     left: 360px;
-    top: 188px;
+    top: 205px;
     width: 70px;
     background: url("../images/arrow-right.png") no-repeat 100%;
     transform: rotate(-180deg);
@@ -246,7 +250,7 @@ h4 {
 
 .booking-types .slick-arrow.slick-next {
     right: 360px;
-    top: 198px;
+    top: 214px;
     width: 70px;
     background: url("../images/arrow-right.png") no-repeat 100%;
 }
@@ -496,6 +500,15 @@ h4 {
     font-weight: 400;
     font-size: 16px;
     color: #676767;
+}
+
+.slick-slider img{
+    width: 100%;
+}
+
+.english-course-img img {
+    margin-left: 30px;
+    width: 370px;
 }
 
 .form {

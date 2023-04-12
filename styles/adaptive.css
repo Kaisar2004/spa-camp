@@ -1,6 +1,195 @@
+/*768 - 1023*/
+@media screen and (max-width: 1023px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    header .container {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        grid-template-rows: repeat(2, max-content);
+    }
+
+    .menu {
+        padding-right: 90px;
+    }
+
+    .location-number {
+        justify-content: center;
+    }
+
+
+    .advantages-box {
+        grid-template-columns: repeat(2, max-content);
+        grid-template-rows: repeat(3, max-content);
+        grid-gap: 40px;
+        justify-content: center;
+    }
+
+    .about-us {
+        grid-template-columns: 1fr;
+    }
+
+    .our-intent-image {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .booking-text {
+        width: 678px;
+    }
+
+    .booking-types .slick-arrow.slick-next {
+        width: 0;
+    }
+
+    .booking-types .slick-arrow.slick-prev {
+        width: 0;
+    }
+
+    .our-special-block {
+        padding-bottom: 50px
+    }
+
+    .out-territories {
+        grid-template-columns: repeat(2, max-content);
+    }
+
+    .territories-info {
+        width: 280px;
+    }
+
+    .territories-img img {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .our-specials {
+        display: block;
+    }
+
+    .specials-img {
+        width: 400px;
+        margin-top: 30px;
+    }
+
+    .form-img {
+        display: none;
+    }
+
+    .our-team-info {
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(2, max-content);
+    }
+
+    .question-title {
+        text-align: center;
+    }
+
+    .accordion {
+        grid-template-columns: 650px;
+        justify-content: center;
+    }
+
+    .galleries .slick-arrow.slick-prev {
+        width: 0;
+    }
+
+    .galleries .slick-arrow.slick-next {
+        width: 0;
+    }
+
+
+    .slick-slide img {
+        width: 100%;
+    }
+
+    .reviews-logo {
+        width: 30%;
+    }
+
+
+    .reviews .slick-arrow.slick-next {
+        width: 0;
+    }
+
+    .reviews .slick-arrow.slick-prev {
+        width: 0;
+    }
+
+    .reviews-text {
+        width: 300px;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer-box {
+        grid-template-columns: repeat(2, max-content);
+        grid-gap: 20px;
+    }
+
+    .footer-travel-info {
+        max-width: 490px;
+    }
+
+    .footer-phone-socials {
+        justify-content: space-around;
+        grid-gap: 10px;
+    }
+
+}
+
+
 /* 425 - 767 */
 @media screen and (max-width: 767px) {
+    .container {
+        padding: 0 20px;
+    }
 
+
+    .reviews-text {
+        width: 300px;
+    }
+
+    .question-title {
+        text-align: center;
+    }
+
+    .accordion {
+        grid-template-columns: 1fr;
+    }
+
+    .accordion li {
+        width: 320px;
+    }
+
+    .question-form-action {
+        grid-template-columns: repeat(1, 355px);
+        grid-gap: 35px;
+    }
+
+
+    .footer-travel-info {
+        display: grid;
+        grid-gap: 20px;
+    }
+
+    .footer-phone-socials {
+        display: grid;
+        grid-gap: 20px;
+    }
+
+    .footer-socials {
+        grid-gap: 60px;
+    }
+
+    .footer-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, max-content);
+        grid-gap: 20px;
+    }
 }
 
 /* 375 - 424 */
@@ -86,6 +275,7 @@
 
     .our-intent-text {
         width: 332px;
+        margin-bottom: 30px;
     }
 
     .booking-title {
@@ -104,18 +294,28 @@
         margin-left: 0;
     }
 
+    .booking-box-names {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .out-territories {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, max-content);
     }
 
+
     .territories-img img {
         width: 330px;
     }
 
+    .our-specials {
+        display: block;
+    }
+
     .our-specials-title {
-        margin-top: 40px;
+
     }
 
     .our-specials-text {
@@ -154,10 +354,14 @@
         width: 330px;
     }
 
+    .english-course {
+        display: block;
+    }
+
     .english-course-info {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, max-content);
+        grid-template-columns: 330px;
+        grid-template-rows: repeat(5, max-content);
     }
 
     .english-course-title {
@@ -167,6 +371,11 @@
 
     .english-course-img {
         margin-top: 40px;
+    }
+
+    .english-course-img img {
+        width: 330px;
+        margin-left: 0;
     }
 
     .form-title {
@@ -238,6 +447,10 @@
         width: 0;
     }
 
+    .booking-types .slick-dots {
+        top: 260px;
+    }
+
     .booking-types .slick-arrow.slick-next {
         width: 0;
     }
@@ -259,7 +472,7 @@
     }
 
     .reviews-text {
-        width: 135px;
+        width: 255px;
     }
 
     .slick-dotted.slick-slider {
@@ -277,11 +490,11 @@
     }
 
     .accordion li {
-        width: 330px;
+        width: 280px;
     }
 
     .question-form-action {
-        grid-template-columns: repeat(1, 375px);
+        grid-template-columns: repeat(1, 320px);
         grid-gap: 35px;
     }
 
@@ -314,4 +527,189 @@
 /* 320 - 373 */
 @media screen and (max-width: 374px) {
 
+
+    header .container {
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+
+    .location-number {
+        grid-gap: 30px;
+    }
+
+    .first-block-title {
+        width: 275px;
+        font-size: 44px;
+    }
+
+    .first-block-description {
+        font-weight: 700;
+        width: 275px;
+        font-size: 19px;
+    }
+
+    .first-block-information {
+        width: 275px;
+    }
+
+    .first-block-action {
+        display: flex;
+        text-decoration: none;
+    }
+
+    .first-block-btn {
+        width: 275px;
+        padding: 18px 40px;
+    }
+
+    .advantages-title {
+        font-size: 34px;
+    }
+
+    .advantages-box {
+        grid-template-columns: 155px;
+        grid-gap: 40px;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 52px;
+    }
+
+    .our-intent-text {
+        width: 275px;
+        margin-bottom: 30px;
+    }
+
+    .our-intent-image img {
+        width: 275px;
+    }
+
+    .booking-text {
+        width: 275px;
+    }
+
+    .booking-box-names {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .territories-info {
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    .territories-img img {
+        width: 275px;
+    }
+
+    .our-specials-spa {
+        margin-top: 15px;
+        grid-template-columns: 1fr;
+    }
+
+    .our-specials-text {
+        width: 275px;
+    }
+
+    .specials-img img {
+        width: 275px;
+    }
+
+    .guest-title {
+        font-size: 20px;
+    }
+
+    .guest-img img {
+        width: 275px;
+    }
+
+    .guest-text {
+        width: 270px;
+    }
+
+    .english-course-info {
+        grid-template-columns: 275px;
+    }
+
+    .english-course-img img {
+        width: 275px;
+    }
+
+    .form-title {
+        font-size: 28px;
+    }
+
+    #names {
+        width: 275px;
+    }
+
+    .FullName {
+        width: 235px;
+    }
+
+    .number-input {
+        width: 235px;
+    }
+
+    .e-mail {
+        width: 235px;
+    }
+
+    .form-btn {
+        margin-top: 30px;
+        width: 275px;
+    }
+
+    .our-team-title {
+        font-size: 28px;
+    }
+
+    .reviews-text {
+        width: 210px;
+    }
+
+    .galleries .slick-dots button {
+        margin-top: 20px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .question-title {
+        font-size: 50px;
+    }
+
+    .accordion li {
+        width: 230px;
+    }
+
+    .accordion li label {
+        font-size: 18px;
+    }
+
+    .question-form-title {
+        font-size: 50px;
+    }
+
+    .question-form-action {
+        grid-template-columns: repeat(1, 270px);
+    }
+
+    .last-block-map-title {
+        font-size: 40px;
+    }
+
+    .footer {
+        padding: 10px 0;
+    }
+
+
+    .footer-socials {
+        grid-gap: 70px;
+    }
 }

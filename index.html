@@ -29,8 +29,10 @@
                 </li>
             </ul>
         </nav>
+        <div></div>
 
-        <div class="location">
+        <div class="location-number">
+            <div class="location">
             <span class="map">
                 <svg width="13" height="18" viewBox="0 0 13 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.5357 7.14286C12.5357 8.0184 12.1695 9.11079 11.5702 10.2937C10.9765 11.4655 10.1798 12.6769 9.37529 13.7766C8.57191 14.8747 7.76748 15.8523 7.16338 16.5559C6.89715 16.8659 6.67023 17.1222 6.5 17.3117C6.32977 17.1222 6.10285 16.8659 5.83662 16.5559C5.23252 15.8523 4.42809 14.8747 3.62471 13.7766C2.82016 12.6769 2.02348 11.4655 1.42979 10.2937C0.830475 9.11079 0.464286 8.0184 0.464286 7.14286C0.464286 3.41221 3.2068 0.464286 6.5 0.464286C9.7932 0.464286 12.5357 3.41221 12.5357 7.14286Z"
@@ -39,9 +41,10 @@
                           stroke="white" stroke-width="0.928571"/>
                 </svg>
             </span>
-            <a href="https://yandex.kz/maps/-/CCU0VZfwtB" class="location-text" target="_blank">Сочи, ул. Кольцова 17</a>
-        </div>
-        <div class="number">
+                <a href="https://yandex.kz/maps/-/CCU0VZfwtB" class="location-text" target="_blank">Сочи, ул. Кольцова
+                    17</a>
+            </div>
+            <div class="number">
             <span class="phone">
                 <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask id="path-1-inside-1_75_545" fill="white">
@@ -51,7 +54,8 @@
                           fill="white" mask="url(#path-1-inside-1_75_545)"/>
                 </svg>
             </span>
-            <a href="tel: +7(495)744-65-99" class="phone-number">+7(495)744-65-99</a>
+                <a href="tel: +7(495)744-65-99" class="phone-number">+7(495)744-65-99</a>
+            </div>
         </div>
     </div>
 </header>
@@ -176,7 +180,7 @@
             </div>
 
             <div class="booking-box">
-                <div class="booking-box-names">Осенняя смена <span class="booking-box-right">5 смена</span></div>
+                <div class="booking-box-names">Осенняя<br><span class="booking-box-right">5 смена</span></div>
                 <div class="booking-box-time">Даты по запросу</div>
                 <div class="booking-box-place">осталось мест<span class="orange">35</span></div>
                 <div class="booking-box-price">цена <span class="orange">от 48 900₽</span></div>
@@ -186,7 +190,7 @@
             </div>
 
             <div class="booking-box">
-                <div class="booking-box-names">Осенняя смена <span class="booking-box-right">6 смена</span></div>
+                <div class="booking-box-names">Осенняя<br><span class="booking-box-right">6 смена</span></div>
                 <div class="booking-box-time">Даты по запросу</div>
                 <div class="booking-box-place">осталось мест<span class="orange">35</span></div>
                 <div class="booking-box-price">цена <span class="orange">от 48 900₽</span></div>
@@ -196,7 +200,7 @@
             </div>
 
             <div class="booking-box">
-                <div class="booking-box-names">Осенняя смена <span class="booking-box-right">7 смена</span></div>
+                <div class="booking-box-names">Осенняя<br><span class="booking-box-right">7 смена</span></div>
                 <div class="booking-box-time"> Даты по запросу</div>
                 <div class="booking-box-place">осталось мест<span class="orange">35</span></div>
                 <div class="booking-box-price">цена <span class="orange">от 48 900₽</span></div>
@@ -298,9 +302,9 @@
                     <div class="our-specials-spa-body">· Массаж лица</div>
                     <div class="our-specials-spa-body">· Питательные маски</div>
                 </div>
-            </div>
-            <div class="specials-img">
-                <img src="images/GroupSpa.png" alt="picture">
+                <div class="specials-img">
+                    <img src="images/GroupSpa.png" alt="picture">
+                </div>
             </div>
         </div>
 
@@ -309,7 +313,6 @@
             <div class="special-guest-box">
                 <div class="guest-img">
                     <img src="images/party.png" alt="party picture">
-                    <img src="images/party2.png" alt="party picture">
                 </div>
                 <div class="guest-text">
                     Помимо разных интересных шоу программ, в нашем лагере специально для наших
@@ -334,11 +337,9 @@
                     рассказать
                     детям, как сложные задачи можно решить с помощью простого подхода, в том числе в изучении языка.
                 </div>
-
-            </div>
-            <div class="english-course-img">
-                <img src="images/english.png" alt="images">
-                <img src="images/english2.png" alt="images">
+                <div class="english-course-img">
+                    <img src="images/english.png" alt="images">
+                </div>
             </div>
         </div>
 
@@ -356,12 +357,20 @@
                     <option value="cat">Третья смена с 16.07 по 29.07</option>
                     <option value="parrot">Четвертая смена с 09.08 по 23.08</option>
                 </select>
-                <input type="text" class="FullName input" placeholder="Введите ФИО" required>
+                <div class="names-error">Выберите смену</div>
+
+                <input type="text" class="FullName input" placeholder="Введите ФИО">
+                <div class="FullName-error">Заполните поле</div>
+
                 <input type="tel" class="number-input input art-stranger" placeholder="Ваш номер телефона" required>
-                <input type="text" class="e-mail input" placeholder="Ваш адрес эл.почты" required>
-                <button class="form-btn">Забронировать</button>
+                <div class="number-input-error">Заполните поле</div>
+
+                <input type="email" class="e-mail input" placeholder="Ваш адрес эл.почты">
+                <div class="e-mail-error">Заполните поле</div>
+
+                <button class="form-btn" id="form-btn" type="button">Забронировать</button>
                 <label class="agree">
-                    <input type="checkbox" name="checkbox" id="checkbox" required>
+                    <input type="checkbox" name="checkbox" id="checkbox">
                     <span class="agree-checkbox">Я согласен(-а) на обработку персональных данных</span>
                 </label>
             </div>
@@ -775,7 +784,9 @@
             <div class="question-form-info">Заполните форму и мы вам перезвоним</div>
             <div class="question-form-action">
                 <input type="text" class="question-name" placeholder="Ваше имя">
+                <div class="question-error">Заполните поле</div>
                 <input type="tel" class="art-stranger question-number" placeholder="Номер телефона">
+                <div class="question-number-error">Заполните поле</div>
                 <button class="question-form-btn">Заказать звонок</button>
             </div>
         </div>
@@ -898,7 +909,8 @@
         }
     };
 </script>
-
 <script src="scripts/script.js"></script>
+
+
 </body>
 </html>

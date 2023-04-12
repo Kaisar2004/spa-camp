@@ -1,0 +1,317 @@
+/* 425 - 767 */
+@media screen and (max-width: 767px) {
+
+}
+
+/* 375 - 424 */
+@media screen and (max-width: 424px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    header .container {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        grid-template-rows: repeat(2, max-content);
+    }
+
+    .menu {
+        margin-left: 0;
+        padding-right: 0;
+    }
+
+    .menu a {
+        padding: 0 17px;
+    }
+
+    .location-number {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, max-content);
+        grid-gap: 20px;
+        text-align: center;
+    }
+
+    .first-block {
+        background: linear-gradient(176.69deg, rgba(236, 140, 66, 0.301) -33.75%, rgba(149, 196, 236, 0.25) 94.97%), url("../images/littleGirl.png") 100% no-repeat;
+        background-size: cover;
+    }
+
+    .first-block-title {
+        font-size: 54px;
+    }
+
+    .first-block-text {
+        width: 332px;
+        padding: 20px 0 50px 0;
+    }
+
+    .first-block-description {
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .advantages-title {
+        font-size: 40px;
+    }
+
+    .advantages-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .advantages-block {
+        width: 155px;
+    }
+
+    .about-us {
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .our-intent-image {
+        padding-left: 0;
+    }
+
+    .our-intent-image img {
+        width: 330px;
+    }
+
+    .our-intent-text {
+        width: 332px;
+    }
+
+    .booking-title {
+        padding-top: 50px;
+    }
+
+    .booking-text {
+        width: 332px;
+    }
+
+    .booking-btn {
+        padding: 10px 20px;
+    }
+
+    .booking-box-right {
+        margin-left: 0;
+    }
+
+    .out-territories {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, max-content);
+    }
+
+    .territories-img img {
+        width: 330px;
+    }
+
+    .our-specials-title {
+        margin-top: 40px;
+    }
+
+    .our-specials-text {
+        width: 332px;
+    }
+
+    .our-specials-spa {
+        grid-column-gap: 0;
+        margin-bottom: 40px;
+    }
+
+    .specials-img {
+        margin-left: 0;
+    }
+
+    .specials-img img {
+        width: 330px;
+    }
+
+    .guest-title {
+        justify-content: start;
+        font-size: 17px;
+    }
+
+    .special-guest-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, max-content);
+    }
+
+    .guest-text {
+        width: 330px;
+    }
+
+    .guest-img img {
+        width: 330px;
+    }
+
+    .english-course-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, max-content);
+    }
+
+    .english-course-title {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+    .english-course-img {
+        margin-top: 40px;
+    }
+
+    .form-title {
+        font-size: 40px;
+    }
+
+    .form-img {
+        display: none;
+    }
+
+    .form-under-title {
+        margin-bottom: 40px;
+    }
+
+    #names {
+        width: 330px;
+    }
+
+    .FullName {
+        width: 290px;
+    }
+
+    .number-input {
+        width: 290px;
+    }
+
+    .e-mail {
+        width: 290px;
+    }
+
+    .form-btn {
+        width: 330px;
+        padding: 15px 50px;
+    }
+
+    #checkbox {
+        margin-right: 0;
+    }
+
+    .agree-checkbox {
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .our-team-title {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .our-team-info {
+        grid-gap: 40px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, max-content);
+    }
+
+    .galleries-title {
+        font-size: 44px;
+    }
+
+    .galleries-img img {
+        width: 100%;
+    }
+
+    .galleries .slick-arrow.slick-next {
+        width: 0;
+    }
+
+    .galleries .slick-arrow.slick-prev {
+        width: 0;
+    }
+
+    .booking-types .slick-arrow.slick-next {
+        width: 0;
+    }
+
+    .booking-types .slick-arrow.slick-prev {
+        width: 0;
+    }
+
+    .reviews .slick-arrow.slick-next {
+        width: 0;
+    }
+
+    .reviews .slick-arrow.slick-prev {
+        width: 0;
+    }
+
+    .reviews-box {
+        max-height: 100%;
+    }
+
+    .reviews-text {
+        width: 135px;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 30px;
+    }
+
+    .question-title {
+        text-align: center;
+    }
+
+    .accordion {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .accordion li {
+        width: 330px;
+    }
+
+    .question-form-action {
+        grid-template-columns: repeat(1, 375px);
+        grid-gap: 35px;
+    }
+
+    .last-block-map-title {
+        font-weight: 700;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .footer-box {
+        display: grid;
+        grid-template-columns: repeat(1, max-content);
+        grid-template-rows: repeat(4, max-content);
+        grid-gap: 20px;
+    }
+
+    .footer-travel-info {
+        max-width: 292px;
+    }
+
+    .footer-number:first-child {
+        margin-bottom: 30px;
+    }
+
+    .footer-socials {
+        grid-gap: 50px;
+    }
+}
+
+/* 320 - 373 */
+@media screen and (max-width: 374px) {
+
+}

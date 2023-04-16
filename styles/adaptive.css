@@ -1,3 +1,104 @@
+@media screen and (max-width: 1440px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .booking-types .slick-arrow.slick-next {
+        width: 0;
+    }
+
+    .booking-types .slick-arrow.slick-prev {
+        width: 0;
+    }
+
+    .galleries .slick-arrow.slick-prev {
+        width: 0;
+    }
+
+    .galleries .slick-arrow.slick-next {
+        width: 0;
+    }
+
+    .slick-slide img {
+        width: 100%;
+    }
+
+    .reviews-logo {
+        width: 30%;
+    }
+
+    .reviews .slick-arrow.slick-next {
+        width: 0;
+    }
+
+    .reviews .slick-arrow.slick-prev {
+        width: 0;
+    }
+
+    .menu {
+        padding-right: 100px
+    }
+
+    .about-us {
+        display: grid;
+        align-items: center;
+    }
+
+    .our-intent {
+        width: 542px;
+    }
+
+    .our-intent-image img {
+        width: 100%;
+    }
+
+    .our-specials-text {
+        width: 500px;
+    }
+
+    .our-team-info {
+        grid-template-columns: repeat(4, 300px);
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 1255px) {
+    .advantages-box {
+        grid-template-columns: repeat(3, max-content);
+        grid-template-rows: repeat(2, max-content);
+        grid-gap: 50px;
+        justify-content: center;
+    }
+
+    .out-territories {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        grid-template-rows: repeat(2, max-content);
+        justify-content: center;
+    }
+
+    .our-team-info {
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(2, max-content);
+        justify-content: center;
+    }
+
+    .accordion {
+        display: grid;
+        grid-template-columns: 600px;
+        justify-content: center;
+    }
+
+    .form-img img {
+        width: 100%;
+    }
+
+    .footer-box {
+        grid-template-columns: repeat(2, max-content);
+        grid-gap: 20px;
+    }
+}
+
 /*768 - 1023*/
 @media screen and (max-width: 1023px) {
     .container {
@@ -6,33 +107,52 @@
 
     header .container {
         display: grid;
-        grid-template-columns: repeat(2, max-content);
-        grid-template-rows: repeat(2, max-content);
+        grid-template-columns: 80px 390px 380px;
+        justify-content: space-between;
     }
 
     .menu {
-        padding-right: 90px;
+        padding-right: 10px;
+        margin-left: 0;
+    }
+
+    .logo {
+        text-align: start;
     }
 
     .location-number {
-        justify-content: center;
+        display: grid;
+        grid-template-rows: repeat(2, max-content);
+        grid-gap: 20px;
+        margin: 0 auto;
     }
 
-
-    .advantages-box {
-        grid-template-columns: repeat(2, max-content);
-        grid-template-rows: repeat(3, max-content);
-        grid-gap: 40px;
-        justify-content: center;
+    .first-block {
+        background: linear-gradient(176.69deg, rgba(236, 140, 66, 0.301) -33.75%, rgba(149, 196, 236, 0.25) 94.97%), url(../images/littleGirl.png) no-repeat 100%;;
     }
 
     .about-us {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .our-intent {
+        width: 405px;
+    }
+
+    .advantages-box {
+        grid-template-columns: repeat(3, max-content);
+        grid-template-rows: repeat(2, max-content);
+        grid-gap: 40px;
+        justify-content: center;
     }
 
     .our-intent-image {
         padding-left: 0;
         padding-top: 30px;
+    }
+
+    .our-intent-image img {
+        width: 100%;
     }
 
     .booking-text {
@@ -53,6 +173,7 @@
 
     .out-territories {
         grid-template-columns: repeat(2, max-content);
+        justify-content: center;
     }
 
     .territories-info {
@@ -65,12 +186,38 @@
     }
 
     .our-specials {
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .our-specials-text {
+        width: 370px;
     }
 
     .specials-img {
-        width: 400px;
         margin-top: 30px;
+    }
+
+    .specials-img img {
+        width: 100%;
+    }
+
+    .guest-title {
+        justify-content: start;
+    }
+
+    .special-guest-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .guest-img img {
+        width: 100%;
+    }
+
+    .guest-text {
+        width: 370px;
     }
 
     .form-img {
@@ -80,6 +227,7 @@
     .our-team-info {
         grid-template-columns: repeat(2, 300px);
         grid-template-rows: repeat(2, max-content);
+        justify-content: center;
     }
 
     .question-title {
@@ -99,7 +247,6 @@
         width: 0;
     }
 
-
     .slick-slide img {
         width: 100%;
     }
@@ -107,7 +254,6 @@
     .reviews-logo {
         width: 30%;
     }
-
 
     .reviews .slick-arrow.slick-next {
         width: 0;
@@ -138,16 +284,58 @@
         justify-content: space-around;
         grid-gap: 10px;
     }
-
 }
 
+@media screen and (max-width: 900px) {
+    header .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 70px max-content max-content;
+        grid-template-rows: 1fr;
+        grid-gap: 30px;
+    }
 
+    .logo {
+        text-align: center;
+    }
+
+    .location-number {
+        grid-gap: 30px;
+    }
+
+}
 /* 425 - 767 */
 @media screen and (max-width: 767px) {
+    .menu {
+        margin-left: 0;
+    }
+
     .container {
         padding: 0 20px;
     }
 
+    .first-block {
+        background: linear-gradient(176.69deg, rgba(236, 140, 66, 0.301) -33.75%, rgba(149, 196, 236, 0.25) 94.97%), url(../images/littleGirl.png) no-repeat 100%;
+    }
+    .first-block-text {
+        padding: 100px 0;
+        width: 658px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .first-block-title {
+        font-size: 40px;
+        width: 580px;
+    }
+
+    .first-block-description {
+        width: 595px;
+    }
+
+    .first-block-information {
+        width: 585px;
+    }
 
     .reviews-text {
         width: 300px;
@@ -157,12 +345,41 @@
         text-align: center;
     }
 
+    .guest-text {
+        width: 380px;
+    }
+
+    #names {
+        width: 370px;
+    }
+
+    .FullName {
+        width: 330px;
+    }
+
+    .number-input {
+        width: 330px;
+    }
+
+    .e-mail {
+        width: 330px;
+    }
+
+    .form-btn {
+        width: 370px;
+        padding: 15px 30px;
+    }
+
     .accordion {
-        grid-template-columns: 1fr;
+        grid-template-columns: 400px;
     }
 
     .accordion li {
-        width: 320px;
+        width: 340px;
+    }
+
+    .galleries-title {
+        font-size: 46px;
     }
 
     .question-form-action {
@@ -170,10 +387,36 @@
         grid-gap: 35px;
     }
 
+    .our-team-title {
+        font-size: 38px;
+    }
+
+    .reviews-text {
+        width: 250px;
+    }
+
+    .reviews .slick-dots {
+        bottom: -15px;
+    }
+    .footer-box {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(1, max-content);
+        grid-gap: 20px;
+    }
+
+    .footer-email-phone-socials {
+        display: grid;
+        justify-content: center;
+    }
+
+    .footer-email {
+        margin-bottom: 20px;
+    }
 
     .footer-travel-info {
         display: grid;
         grid-gap: 20px;
+        max-width: 330px;
     }
 
     .footer-phone-socials {
@@ -184,11 +427,231 @@
     .footer-socials {
         grid-gap: 60px;
     }
+}
 
-    .footer-box {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, max-content);
+@media screen and (max-width: 740px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header .container {
+        grid-template-columns: repeat(3, max-content);
+        justify-content: space-between;
+    }
+
+
+    .location-number {
+        display: grid;
+        grid-gap: 30px;
+        text-align: center;
+        grid-template-columns: max-content;
+        grid-template-rows: repeat(2, max-content);
+        margin: 0 auto;
+        padding-left: 10px;
+    }
+
+    .advantages-title {
+        font-size: 44px;
+    }
+
+    .advantages-box {
+        grid-template-columns: repeat(2, 180px);
         grid-gap: 20px;
+    }
+
+    .about-us {
+        grid-template-columns: 380px;
+        justify-content: center;
+    }
+
+    .our-intent-text {
+        width: 380px;
+    }
+
+    .our-intent-image {
+        text-align: center;
+    }
+
+    .our-intent-image img {
+        width: 100%;
+    }
+
+    .out-territories {
+        grid-template-columns: repeat(2, max-content);
+        grid-gap: 30px;
+    }
+
+    .our-team-info {
+        grid-template-columns: 1fr;
+    }
+
+    .booking-text {
+        width: 380px;
+    }
+
+    .booking-box-action {
+        margin-top: 20px;
+    }
+
+    .booking-types .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 265px;
+    }
+
+    .booking-btn {
+        padding: 10px 25px;
+    }
+
+    .our-specials {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 400px;
+        grid-template-rows: repeat(2, max-content);
+    }
+
+    .our-specials-info {
+        font-size: 22px;
+    }
+
+    .specials-img {
+        margin-left: 0;
+    }
+
+    .our-specials-text {
+        width: 380px;
+    }
+
+    .booking-box-right {
+        margin-left: 0;
+    }
+    .special-guest-box {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 400px;
+        grid-template-rows: repeat(2, max-content);
+    }
+
+    .guest-title {
+        justify-content: center;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .guest-text {
+        width: 390px;
+    }
+
+    .guest-img {
+        margin-top: 30px;
+        order: 2;
+    }
+
+    .guest-img img {
+        width: 100%;
+    }
+
+    .specials-img {
+        width: 100%;
+    }
+
+    .specials-img img {
+        width: 100%;
+    }
+
+    .english-course {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 400px;
+    }
+    .english-course-info {
+        width: 465px;
+    }
+    .english-course-title {
+        font-size: 22px;
+    }
+
+    .english-course-text {
+        width: 380px;
+    }
+
+    .english-course-description {
+        width: 380px;
+        margin-bottom: 20px;
+    }
+
+    .english-course-img img {
+        margin-left: 1px;
+    }
+
+    .form-title {
+        font-size: 38px;
+    }
+
+    .footer-socials {
+        grid-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    header .container {
+        grid-template-columns: max-content;
+        grid-template-rows: repeat(3, max-content);
+        justify-content: center;
+    }
+
+    .location-number {
+        margin: 0 auto;
+        padding-left: 10px;
+    }
+
+    .first-block-text {
+        padding: 100px 0;
+        display: grid;
+        grid-template-columns: 650px;
+        /*justify-content: center;*/
+    }
+
+    .first-block-title {
+        font-size: 40px;
+        width: 375px;
+    }
+
+    .first-block-description {
+        width: 380px;
+    }
+
+    .first-block-information {
+        width: 370px;
+    }
+    .first-block-action {
+        padding-right: 285px;
+    }
+
+    .booking-types .slick-dots {
+        top: 295px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .out-territories {
+        display: grid;
+        grid-template-columns: 340px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header .container {
+        display: grid;
+        grid-template-columns: max-content;
+        grid-template-rows: repeat(3, max-content);
+        justify-content: center;
+    }
+
+    .location-number {
+        padding-left: 0;
     }
 }
 
@@ -202,15 +665,21 @@
         padding: 0 15px;
     }
 
+    .logo {
+        text-align: center;
+    }
+
     header .container {
         display: grid;
-        grid-template-columns: repeat(2, max-content);
-        grid-template-rows: repeat(2, max-content);
+        grid-template-columns: repeat(1, 350px);
+        grid-template-rows: repeat(3, max-content);
+        grid-gap: 20px;
     }
 
     .menu {
         margin-left: 0;
         padding-right: 0;
+        margin: 0 auto;
     }
 
     .menu a {
@@ -223,6 +692,7 @@
         grid-template-rows: repeat(2, max-content);
         grid-gap: 20px;
         text-align: center;
+        padding-left: 0;
     }
 
     .first-block {
@@ -231,17 +701,27 @@
     }
 
     .first-block-title {
-        font-size: 54px;
+        font-size: 48px;
+        width: 310px;
     }
 
     .first-block-text {
-        width: 332px;
+        width: 670px;
         padding: 20px 0 50px 0;
     }
 
     .first-block-description {
         font-weight: 600;
         font-size: 24px;
+        width: 310px;
+    }
+
+    .first-block-information {
+        width: 310px;
+    }
+
+    .first-block-action {
+        padding-right: 325px;
     }
 
     .advantages-title {
@@ -262,7 +742,7 @@
     .about-us {
         padding-top: 20px;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 330px;
     }
 
     .our-intent-image {
@@ -305,17 +785,12 @@
         grid-template-rows: repeat(6, max-content);
     }
 
-
     .territories-img img {
         width: 330px;
     }
 
     .our-specials {
         display: block;
-    }
-
-    .our-specials-title {
-
     }
 
     .our-specials-text {
@@ -367,6 +842,14 @@
     .english-course-title {
         margin-top: 40px;
         font-size: 20px;
+    }
+
+    .english-course-text {
+        width: 310px;
+    }
+
+    .english-course-description {
+        width: 310px;
     }
 
     .english-course-img {
@@ -439,6 +922,10 @@
         width: 100%;
     }
 
+    .galleries .slick-dots {
+        top: 115px;
+    }
+
     .galleries .slick-arrow.slick-next {
         width: 0;
     }
@@ -486,7 +973,6 @@
     .accordion {
         display: grid;
         grid-template-columns: 1fr;
-
     }
 
     .accordion li {
@@ -497,6 +983,7 @@
         grid-template-columns: repeat(1, 320px);
         grid-gap: 35px;
     }
+
 
     .last-block-map-title {
         font-weight: 700;
@@ -526,12 +1013,14 @@
 
 /* 320 - 373 */
 @media screen and (max-width: 374px) {
-
-
     header .container {
         justify-content: center;
         grid-template-columns: 1fr;
         grid-gap: 20px;
+    }
+
+    .menu {
+        margin-left: 0;
     }
 
     .logo {
@@ -540,6 +1029,9 @@
 
     .location-number {
         grid-gap: 30px;
+    }
+    .first-block-text {
+        width: 645px;
     }
 
     .first-block-title {
@@ -581,13 +1073,21 @@
         font-size: 52px;
     }
 
+    .about-us {
+        grid-template-columns: 260px;
+    }
+
     .our-intent-text {
         width: 275px;
         margin-bottom: 30px;
     }
 
+    .our-intent-image {
+        width: 250px;
+    }
+
     .our-intent-image img {
-        width: 275px;
+        width: 90%;
     }
 
     .booking-text {
@@ -637,6 +1137,14 @@
         grid-template-columns: 275px;
     }
 
+    .english-course-text {
+        width: 255px;
+    }
+
+    .english-course-description {
+        width: 255px;
+    }
+
     .english-course-img img {
         width: 275px;
     }
@@ -674,18 +1182,31 @@
         width: 210px;
     }
 
+    .reviews .slick-dots {
+        bottom: -30px;
+    }
+
+    .galleries-title {
+        font-size: 34px;
+    }
+
+    .galleries .slick-dots {
+        top: 60px;
+    }
+
     .galleries .slick-dots button {
         margin-top: 20px;
         width: 10px;
         height: 10px;
     }
 
+
     .question-title {
         font-size: 50px;
     }
 
     .accordion li {
-        width: 230px;
+        width: 260px;
     }
 
     .accordion li label {
@@ -708,8 +1229,7 @@
         padding: 10px 0;
     }
 
-
     .footer-socials {
-        grid-gap: 70px;
+        grid-gap: 55px;
     }
 }

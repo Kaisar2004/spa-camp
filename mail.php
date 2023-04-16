@@ -3,16 +3,19 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Получаем параметры, посланные с javascript
+    $select = $_POST['date'];
     $name = $_POST['name'];
-    $count = $_POST['count'];
-    $phone = $_POST['phone'];
-    $time = $_POST['time'];
+    $number = $_POST['number'];
+    $email = $_POST['email'];
 
     // создаем переменную с содержанием письма
-    $content = $name . ' оставил заявку на бронирование столика для ' . $count . ' человек в ' . $time . '. Его телефон: ' . $phone;
+    $content = $name . ' оставил заявку бронирование на ' . $select . ' Его телефон ' . $number . '. Его почта: ' . $email;
+
+    $headers  = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
     // Первый параметр - кому отправляем письмо, второй - тема письма, третий - содержание
-    $success = mail("mail@my-site-example.site", 'Запрос на бронирование столика', $content);
+    $success = mail("admin@spa-camp.ru", 'Запрос на бронирование ', $content , $headers);
 
     if ($success) {
         // Отдаем 200 код ответа на http запрос
@@ -29,3 +32,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     http_response_code(403);
     echo "Данный метод запроса не поддерживается сервером";
 }
+

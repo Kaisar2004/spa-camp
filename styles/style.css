@@ -1,89 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
-
 @font-face {
     font-family: RalewayRegular;
     src: url("../fonts/Raleway-Regular.ttf");
 }
-
 body {
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
-
-
 * {
     margin: 0;
     padding: 0;
     cursor: default;
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 header {
     background-color: #EC8C42;
     padding: 15px 0;
 }
-
 header .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-
 .menu {
     margin-left: 125px;
     padding-right: 295px;
 }
-
 .menu-item {
     font-family: RalewayRegular, sans-serif;
 }
-
 .menu ul {
     display: flex;
     align-items: center;
     list-style: none;
 }
-
 .menu a {
     text-decoration: none;
     padding: 0 25px;
     color: #FFF;
     cursor: pointer;
 }
-
 .location {
     margin-right: 15px;
 }
-
 .location-text {
     color: #FFF;
     text-decoration: none;
     cursor: pointer;
 }
-
 .location-number {
     display: flex;
 }
-
 .phone-number {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
 }
-
 .first-block {
-    background: linear-gradient(176.69deg, rgba(236, 140, 66, 0.301) -33.75%, rgba(149, 196, 236, 0.25) 94.97%), url("../images/littleGirl.png");
+    background: linear-gradient(176.69deg, rgba(236, 140, 66, 0.301) -33.75%, rgba(149, 196, 236, 0.25) 94.97%), url("../images/littleGirl.png") no-repeat center;
     background-size: cover;
 }
-
 .first-block-text {
     padding: 180px 0 150px 0;
     width: 658px;
     text-align: center;
 }
-
 .first-block-title {
     color: #fff;
     font-weight: 700;
@@ -91,13 +75,11 @@ header .container {
     line-height: 110px;
     cursor: default;
 }
-
 .first-block-description {
     font-weight: 400;
     font-size: 30px;
     color: #FFFFFF;
 }
-
 .first-block-information {
     color: #FFF;
     font-weight: 400;
@@ -105,8 +87,6 @@ header .container {
     line-height: 20px;
     padding-top: 20px;
 }
-
-
 .first-block-btn {
     margin-top: 30px;
     background: #FFAF02;
@@ -119,77 +99,63 @@ header .container {
     font-size: 20px;
     transition: 300ms ease-in-out;
 }
-
 .first-block-btn:hover {
     background: #FFC443;
     transition: 300ms ease-in-out;
 }
-
 .first-block-btn:focus-within {
     background: #95C4EC;
     transition: 300ms ease-in-out;
 }
-
 .second-block {
     background: #D3E4F4 url("../images/first-foliage.png") no-repeat;
 }
-
-
 .advantages-title {
     padding: 100px 0 30px 0;
     font-weight: 700;
     font-size: 60px;
     color: #F2AA40;
 }
-
 .advantages-box {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-
 .advantages-block {
     width: 200px;
 }
-
 .advantages-price {
     font-weight: 600;
     font-size: 30px;
     color: #82BCED;
     padding-bottom: 5px;
 }
-
 .advantages-description {
     font-weight: 400;
     font-size: 16px;
     color: #676767;
 }
-
 .about-us {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding-top: 100px;
 }
-
 h1 {
     font-weight: 700;
     font-size: 60px;
     color: #F2AA40;
 }
-
 .our-intent {
     width: 590px;
     padding-top: 30px;
 }
-
 h4 {
     padding-top: 30px;
     font-weight: 600;
     font-size: 30px;
     color: #82BCED;
 }
-
 .our-intent-text {
     padding-top: 25px;
     font-weight: 400;
@@ -197,24 +163,19 @@ h4 {
     line-height: 20px;
     color: #676767;
 }
-
 .our-intent-image {
     padding-left: 70px;
 }
-
 .booking {
     background: #D3E4F4 url("../images/second-foliage.png") no-repeat;
     padding-bottom: 75px;
 }
-
-
 .booking-title {
     padding-top: 30px;
     font-weight: 600;
     font-size: 30px;
     color: #6DB2ED;
 }
-
 .booking-text {
     width: 740px;
     padding-top: 10px;
@@ -222,7 +183,6 @@ h4 {
     font-size: 16px;
     color: #676767;
 }
-
 .booking-types {
     position: relative;
     padding-top: 30px;
@@ -231,7 +191,6 @@ h4 {
     grid-template-rows: max-content;
     grid-gap: 20px;
 }
-
 .booking-types .slick-arrow {
     position: absolute;
     top: 50%;
@@ -239,7 +198,6 @@ h4 {
     font-size: 0;
     margin-top: 15px;
 }
-
 .booking-types .slick-arrow.slick-prev {
     left: 360px;
     top: 205px;
@@ -247,37 +205,31 @@ h4 {
     background: url("../images/arrow-right.png") no-repeat 100%;
     transform: rotate(-180deg);
 }
-
 .booking-types .slick-arrow.slick-next {
     right: 360px;
     top: 214px;
     width: 70px;
     background: url("../images/arrow-right.png") no-repeat 100%;
 }
-
 .booking-types .slick-dots li button:before {
     font-size: 0;
 }
-
 .booking-types .slick-prev:before {
     font-size: 0;
 }
-
 .booking-types .slick-next:before {
     font-size: 0;
 }
-
 .booking-types .slick-dots {
     display: flex;
     align-items: center;
     justify-content: center;
+    top: 233px;
 }
-
 .booking-types .slick-dots li {
     list-style: none;
     margin: 0 10px;
 }
-
 .booking-types .slick-dots button {
     font-size: 0;
     width: 15px;
@@ -285,12 +237,9 @@ h4 {
     border-radius: 50%;
     background-color: #ECA167;
 }
-
 .booking-types .slick-dots li.slick-active button {
     background-color: #82BCED;
 }
-
-
 .booking-box {
     margin: 0 10px;
     border-radius: 20px;
@@ -298,51 +247,43 @@ h4 {
     background: #B5D5F0;
     width: 250px;
 }
-
 .booking-box-names {
     font-weight: 600;
     font-size: 16px;
     color: #2F2F2F;
 }
-
 .booking-box-right {
-    margin-left: 50px;
+    /*margin-left: 50px;*/
     font-weight: 600;
     font-size: 16px;
     color: #FCA321;
 }
-
 .booking-box-time {
     padding-top: 10px;
     font-weight: 400;
     font-size: 12px;
     color: #000000;
 }
-
 .orange {
     color: #F2AA40;
 }
-
 .booking-box-place {
     padding: 5px 0;
     font-weight: 400;
     font-size: 12px;
     color: #000000;
 }
-
 .booking-box-price {
     font-weight: 400;
     font-size: 12px;
     color: #000000;
 }
-
 .booking-box-action {
     display: flex;
     text-decoration: none;
     padding-top: 10px;
     justify-content: center;
 }
-
 .booking-btn {
     cursor: pointer;
     border: none;
@@ -353,38 +294,31 @@ h4 {
     font-weight: 400;
     font-size: 12px;
     color: #000000;
-    scroll-behavior: smooth;
 }
-
 .booking-btn:hover {
     background: #FCA321;
     transition: 300ms ease-in-out;
     color: #676767;;
 }
-
 .slick-list {
     overflow: hidden;
 }
-
 .slick-track {
     display: flex;
     align-items: flex-start;
 }
-
 .out-territories {
     display: grid;
     grid-template-columns: repeat(3, max-content);
     grid-template-rows: repeat(3, max-content);
     grid-gap: 50px;
 }
-
 .territories-title {
     font-weight: 600;
     font-size: 30px;
     color: #6DB2ED;
     padding-bottom: 50px;
 }
-
 .territories-info {
     margin-bottom: 10px;
     width: 308px;
@@ -392,30 +326,25 @@ h4 {
     font-size: 16px;
     color: #676767;
 }
-
 .our-special-block {
     background: url("../images/spa.png") no-repeat bottom #D3E4F4;
 }
-
 .our-specials {
     display: flex;
     margin-bottom: 50px;
 }
-
 .our-specials-title {
     font-weight: 600;
     font-size: 30px;
     color: #6DB2ED;
     margin-bottom: 30px;
 }
-
 .our-specials-info {
     margin-bottom: 15px;
     font-weight: 600;
     font-size: 18px;
     color: #676767;
 }
-
 .our-specials-text {
     margin-bottom: 8px;
     width: 700px;
@@ -424,14 +353,12 @@ h4 {
     color: #676767;
     line-height: 20px;
 }
-
 .our-specials-spa-info {
     font-weight: 400;
     font-size: 16px;
     color: #676767;
     margin-bottom: 5px;
 }
-
 .our-specials-spa {
     display: grid;
     grid-template-columns: repeat(2, max-content);
@@ -439,22 +366,18 @@ h4 {
     grid-gap: 10px;
     grid-column-gap: 50px;
 }
-
 .our-specials-spa-body {
     font-weight: 400;
     font-size: 16px;
     color: #676767;
 }
-
 .specials-img {
     margin-left: 15px;
 }
-
 .special-guest-box {
     display: flex;
     grid-column-gap: 45px;
 }
-
 .guest-title {
     display: flex;
     justify-content: right;
@@ -463,7 +386,6 @@ h4 {
     color: #676767;
     margin-bottom: 40px;
 }
-
 .guest-text {
     padding-top: 20px;
     width: 700px;
@@ -471,70 +393,56 @@ h4 {
     font-size: 16px;
     color: #676767;
 }
-
 .english-course {
     padding-top: 40px;
     display: flex;
     align-items: center;
 }
-
 .english-course-title {
     margin-bottom: 20px;
     font-weight: 600;
     font-size: 16px;
     color: #676767;
 }
-
 .english-course-info {
     width: 700px;
 }
-
 .english-course-text {
     font-weight: 400;
     font-size: 16px;
     color: #676767;
     margin-bottom: 10px;
 }
-
 .english-course-description {
     font-weight: 400;
     font-size: 16px;
     color: #676767;
 }
-
-.slick-slider img{
-    width: 100%;
-}
-
 .english-course-img img {
     margin-left: 30px;
     width: 370px;
 }
-
 .form {
     background: #D3E4F4 url("../images/flower.png") no-repeat 100%;
-    /*display: flex;*/
     padding-bottom: 100px;
 }
-
 .form-title {
     padding: 100px 0 20px 0;
     font-weight: 700;
     font-size: 60px;
     color: #FCA321;
 }
-
 .form-under-title {
     font-weight: 400;
     font-size: 16px;
     color: #676767;
 }
-
 .form-box {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
     align-items: center;
 }
-
 .input {
     margin: 10px 0;
     padding: 20px;
@@ -543,24 +451,19 @@ h4 {
     outline: 0;
     border: 1px #FFFFFF;
 }
-
 #names {
     width: 510px;
+    color: #676767;
 }
-
 .FullName {
     width: 470px;
 }
-
 .number-input {
     width: 470px;
 }
-
 .e-mail {
     width: 470px;
 }
-
-
 .form-btn {
     cursor: pointer;
     width: 510px;
@@ -574,35 +477,30 @@ h4 {
     color: #2F2F2F;
     transition: 300ms ease-in-out;
 }
-
 .form-btn:hover {
     color: #676767;
     background: #FCA321;
     transition: 300ms ease-in-out;
 }
-
 .form-btn:focus-within {
     background: #FFFFFF;
     transition: 300ms;
     color: #F2AA40;
 }
-
 .agree {
     display: flex;
     padding-top: 10px;
+    margin-bottom: 30px;
 }
-
 #checkbox {
     margin-right: 20px;
     border-radius: 100%;
 }
-
 .our-team {
     background: url("../images/our-team.png") no-repeat #D3E4F4;
     padding-bottom: 100px;
     z-index: -111;
 }
-
 .our-team-title {
     margin-bottom: 30px;
     font-weight: 700;
@@ -610,18 +508,15 @@ h4 {
     line-height: 73px;
     color: #FCA321;
 }
-
 .our-team-info {
     display: grid;
     grid-template-columns: repeat(4, 260px);
     grid-gap: 50px;
     padding-bottom: 100px;
 }
-
 .our-team-box {
     text-align: center;
 }
-
 .our-team-name {
     font-weight: 600;
     font-size: 16px;
@@ -629,29 +524,25 @@ h4 {
     padding: 10px 0;
     color: #676767;
 }
-
 .our-team-job {
     font-weight: 400;
     font-size: 14px;
     line-height: 15px;
     color: #676767;
 }
-
 .galleries {
     position: relative;
 }
-
 .galleries-title {
     padding-bottom: 25px;
     font-weight: 700;
     font-size: 60px;
     color: #FCA321;
 }
-
 .galleries-img img {
     border-radius: 30px;
+    width: 100%;
 }
-
 .galleries .slick-arrow {
     position: absolute;
     top: 50%;
@@ -659,7 +550,6 @@ h4 {
     font-size: 0;
     margin-top: 15px;
 }
-
 .galleries .slick-arrow.slick-prev {
     left: 305px;
     top: 338px;
@@ -667,37 +557,30 @@ h4 {
     background: url("../images/arrow-right.png") no-repeat 100%;
     transform: rotate(-180deg);
 }
-
 .galleries .slick-arrow.slick-next {
     right: 310px;
     top: 347px;
     width: 70px;
     background: url("../images/arrow-right.png") no-repeat 100%;
 }
-
 .galleries .slick-dots li button:before {
     font-size: 0;
 }
-
 .galleries .slick-prev:before {
     font-size: 0;
 }
-
 .galleries .slick-next:before {
     font-size: 0;
 }
-
 .galleries .slick-dots {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .galleries .slick-dots li {
     list-style: none;
     margin: 0 10px;
 }
-
 .galleries .slick-dots button {
     font-size: 0;
     width: 15px;
@@ -705,11 +588,9 @@ h4 {
     border-radius: 50%;
     background-color: #ECA167;
 }
-
 .galleries .slick-dots li.slick-active button {
     background-color: #82BCED;
 }
-
 .reviews {
     padding-top: 70px;
     display: grid;
@@ -718,14 +599,12 @@ h4 {
     /*grid-gap: 90px;*/
     grid-template-rows: max-content;
 }
-
 .reviews-h1 {
     padding: 100px 0 20px 0;
     font-weight: 700;
     font-size: 60px;
     color: #FCA321;
 }
-
 .reviews-box {
     max-height: 388px;
     padding: 20px 20px 50px 20px;
@@ -733,27 +612,23 @@ h4 {
     border-radius: 30px;
     margin: 0 10px;
 }
-
 .reviews-logo {
     display: flex;
     justify-content: right;
 }
-
 .reviews-name {
     font-weight: 600;
     font-size: 16px;
     color: #676767;
     margin-bottom: 10px;
 }
-
 .reviews-text {
-    width: 346px;
+    width: 100%;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
     color: #676767;
 }
-
 .reviews .slick-arrow {
     position: absolute;
     top: 50%;
@@ -761,7 +636,6 @@ h4 {
     font-size: 0;
     margin-top: 15px;
 }
-
 .reviews .slick-arrow.slick-prev {
     left: 420px;
     top: 411px;
@@ -769,38 +643,31 @@ h4 {
     background: url("../images/arrow-right.png") no-repeat 100%;
     transform: rotate(-180deg);
 }
-
 .reviews .slick-arrow.slick-next {
     right: 430px;
     top: 422px;
     width: 70px;
     background: url("../images/arrow-right.png") no-repeat 100%;
 }
-
 .reviews .slick-dots li button:before {
     font-size: 0;
 }
-
 .reviews .slick-prev:before {
     font-size: 0;
 }
-
 .reviews .slick-next:before {
     font-size: 0;
 }
-
 .reviews .slick-dots {
     display: flex;
     align-items: center;
     justify-content: center;
     bottom: -40px;
 }
-
 .reviews .slick-dots li {
     list-style: none;
     margin: 0 10px;
 }
-
 .reviews .slick-dots button {
     font-size: 0;
     width: 15px;
@@ -808,30 +675,24 @@ h4 {
     border-radius: 50%;
     background-color: #ECA167;
 }
-
 .reviews .slick-dots li.slick-active button {
     background-color: #82BCED;
 }
-
 .last-block {
     background: #D3E4F4 url("../images/last-block.png") no-repeat 100% bottom;
     padding-bottom: 100px;
 }
-
-
 .accordion {
     display: grid;
     grid-template-columns: repeat(2, 600px);
     grid-template-rows: repeat(3, max-content);
 }
-
 .question-title {
     font-weight: 700;
     font-size: 60px;
     color: #FCA321;
     margin-bottom: 30px;
 }
-
 .accordion li {
     list-style: none;
     margin: 20px;
@@ -841,10 +702,7 @@ h4 {
                 -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
     width: 560px;
 }
-
-
-
-.accordion li label {
+.label {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -853,65 +711,40 @@ h4 {
     font-weight: 600;
     font-size: 25px;
     color: #676767;
+    background: #D3E4F4;
 }
 
-.accordion label::before {
+
+
+.accordionjs .label::before {
     content: '+';
     font-size: 24px;
     font-weight: 500;
     order: 2;
-}
-
-input[type='radio']{
-    display: none;
-}
-
-.accordion .content {
-    padding: 0 10px;
-    line-height: 28px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s, padding 0.5s;
-    font-weight: 400;
-    font-size: 16px;
-    color: #676767;
-}
-
-.accordion input[type='radio']:checked + label + .content {
-    padding: 10px 10px 20px;
-    max-height: 100%;
-}
-
-.accordion input[type='radio']:checked + label::before {
-    content: '-';
-    max-height: 100%;
+    justify-content: right;
 }
 
 .question-form {
     margin-top: 100px;
 }
-
 .question-form-title {
     font-weight: 700;
     font-size: 60px;
     color: #FCA321;
     margin-bottom: 30px;
 }
-
 .question-form-info {
     font-weight: 400;
     font-size: 16px;
     color: #333333;
     margin-bottom: 30px;
 }
-
 .question-form-action {
     display: grid;
     grid-template-columns: repeat(1, 460px);
     grid-template-rows: repeat(3, max-content);
     grid-gap: 20px;
 }
-
 .question-name {
     font-weight: 400;
     font-size: 16px;
@@ -922,7 +755,6 @@ input[type='radio']{
     border: none;
     outline: none;
 }
-
 .question-number {
     font-weight: 400;
     font-size: 16px;
@@ -933,7 +765,6 @@ input[type='radio']{
     border: none;
     outline: none;
 }
-
 .question-form-btn {
     padding: 15px 0;
     background: #FFAF02;
@@ -945,32 +776,28 @@ input[type='radio']{
     border: 0;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 50px;
+    cursor: pointer;
 }
-
 .question-form-btn:hover {
     transition: 300ms ease-in-out;
     background: #F2AA40;
     color: #676767;;
 }
-
 .question-form-btn:focus-within {
     transition: 300ms ease-in-out;
     background: #FFFFFF;
     color: #F2AA40;
 }
-
 .last-block-map-title {
     font-weight: 700;
     font-size: 60px;
     color: #FCA321;
     margin-bottom: 30px;
 }
-
 .footer {
     background: #EC8C42;
     padding: 50px;
 }
-
 .footer-box {
     display: grid;
     grid-template-columns: repeat(4, max-content);
@@ -981,47 +808,40 @@ input[type='radio']{
 .footer-travel-info {
     max-width: 650px;
 }
-
 .footer-travel {
     font-weight: 400;
     font-size: 16px;
     color: #676767;
     margin-bottom: 10px;
 }
-
 .footer-travel-location {
     font-weight: 400;
     font-size: 16px;
     color: #676767;
     margin-bottom: 10px;
 }
-
 .footer-travel-iin {
     font-weight: 400;
     font-size: 12px;
     color: #676767;
     margin-bottom: 10px;
 }
-
 .footer-travel-site {
     font-weight: 400;
     font-size: 12px;
     margin-bottom: 10px;
     color: #676767;
 }
-
 .footer-travel-civil {
     font-weight: 400;
     font-size: 12px;
     color: #676767;
 }
-
 .footer-email {
     font-weight: 400;
     font-size: 18px;
     color: #676767;
 }
-
 .footer-number {
     display: block;
     font-weight: 700;
@@ -1030,17 +850,14 @@ input[type='radio']{
     cursor: pointer;
     text-decoration: none;
 }
-
 .footer-number:first-child {
     margin-bottom: 10px;
 }
-
 .footer-socials {
     display: flex;
     padding-top: 20px;
     grid-gap: 15px;
 }
-
 .footer-under-text {
     padding-top: 50px;
     font-weight: 400;
@@ -1048,37 +865,31 @@ input[type='radio']{
     line-height: 20px;
     color: #676767;
 }
-
 .names-error {
     color: red;
     font-size: 18px;
     display: none;
 }
-
 .FullName-error {
     color: red;
     font-size: 18px;
     display: none;
 }
-
 .number-input-error {
     color: red;
     font-size: 18px;
     display: none;
 }
-
 .e-mail-error {
     color: red;
     font-size: 18px;
     display: none;
 }
-
 .question-error {
     color: red;
     font-size: 18px;
     display: none;
 }
-
 .question-number-error {
     color: red;
     font-size: 18px;
